@@ -8,7 +8,7 @@ body {
 
 .container1 {
     width: 350px;
-    height: 300px;
+    height: 100px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
@@ -17,7 +17,6 @@ body {
 
 .container2 {
     width: 350px;
-    height: 600px;
     background-color: white;
     margin: auto;
     padding-top: 10px;
@@ -117,5 +116,20 @@ a {
 }
 
 .footer {
+    margin-top: 20px;
     width: 100vw;
+}
+footer>p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+.capcha{
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 60px;
 }
