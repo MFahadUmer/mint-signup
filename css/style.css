@@ -1,29 +1,30 @@
 body {
     margin: auto;
-    background-color: aqua;
+    background-color:lightgray;
 }
 
 .container {
     width: 350px;
-    height: 500px;
+    height: 600px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
-}
-
-#other_logos {
-    display: flex;
-    align-content: center;
-    width: auto;
+    margin-top: 20px;
 }
 
 li {
     display: inline;
-    ;
-}
+ }
 
 .logo_main {
     width: auto;
     max-width: 100px;
     padding-right: 200px;
+}
+.form{
+    margin: auto;
+}
+.navbar{
+    width: 100vw;
+    height: 20px;
 }
