@@ -35,13 +35,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Edie Atha**
 
 - Github: [@edieatha](https://github.com/edieatha)
 - Twitter: [@edieatha](https://twitter.com/edieatha)
 - Linkedin: [linkedin](https://www.linkedin.com/in/edieatha/)
 
-👤 **Author2**
+👤 **Muhammad Fahad Umer**
 
 - Github: [@MFahadUmer](https://github.com/MFahadUmer)
 - Twitter: [@engfahadumer](https://twitter.com/engfahadumer)
