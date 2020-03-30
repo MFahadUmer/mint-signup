@@ -6,188 +6,185 @@ body {
 }
 
 .container1 {
-    background-color: rgb(236, 238, 241);
-    height: 120px;
-    margin: auto;
-    width: 350px;
+  background-color: rgb(236, 238, 241);
+  height: 120px;
+  margin: auto;
+  width: 350px;
 }
 
 .container2 {
-    background-color: white;
-    border-color: rgb(87, 87, 87);
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 0.5px;
-    margin: auto;
-    padding-top: 10px;
-    width: 380px;
+  background-color: white;
+  border-color: rgb(87, 87, 87);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  margin: auto;
+  padding-top: 10px;
+  width: 380px;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 .logo_main {
-    filter: grayscale(5);
-    margin: auto;
-    opacity: 0.7;
-    padding: 20px;
-    text-align: center;  
+  filter: grayscale(5);
+  margin: auto;
+  opacity: 0.7;
+  padding: 20px;
+  text-align: center;  
 }
 
 .form {
-    margin: auto;
+  margin: auto;
 }
 
 .navbar {
-
-    height: 20px;
-    width: 100vw;
+  height: 20px;
+  width: 100vw;
 }
 
 .signin {
-    background-color: rgb(0, 119, 197);
-    border-radius: 5px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    color: white;
-    float: right;
-    font-size: 15px;
-    margin: 10px 30px 0 10px;
-    padding: 0 30px 12px 30px;
+  background-color: rgb(0, 119, 197);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  color: white;
+  float: right;
+  font-size: 15px;
+  margin: 10px 30px 0 10px;
+  padding: 0 30px 12px 30px;
 }
 
 .signin:hover {
-    background-color: #8C1FFF;
+  background-color: #8c1FFF;
 }
 
 .have_account {    
-    float: right;
-    text-align: right;
+  float: right;
+  text-align: right;
 }
 
 .other_logos {
-    display: flex;
-    padding: 0 60px 20px 40px;
+  display: flex;
+  padding: 0 60px 20px 40px;
 }
 
 .text_btn {
-    background-color: rgb(236, 238, 241);
-    font-size: 15px;
+  background-color: rgb(236, 238, 241);
+  font-size: 15px;
 }
 
 button {
-    border-style: hidden;
-    color: gray;
-    font-family: 'AvenirNext', Avenir;
-    font-weight: lighter;
-    padding-left: 3px;
+  border-style: hidden;
+  color: gray;
+  font-family: 'AvenirNext', Avenir;
+  font-weight: lighter;
+  padding-left: 3px;
 }
 
 .small_logo {
-    display: flex;
-    width: 200px;
-
+  display: flex;
+  width: 200px;
 }
 
 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 .create_account {
-    background-color: rgb(0, 119, 197);
-    border-radius: 5px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    color: floralwhite;
-    display: block;
-    font-size: 15px;
-    height: 44px;
-    margin-top: 20px;
-    text-align: center;
-    width: 350px;  
+  background-color: rgb(0, 119, 197);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  color: floralwhite;
+  display: block;
+  font-size: 15px;
+  height: 44px;
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;  
 }
 
 .create_account:hover {
-    background-color: #8C1FFF;
+  background-color: #8C1FFF;
 }
 
 .footer {
-    margin-top: 20px;
-    width: 100vw;
+  margin-top: 20px;
+  width: 100vw;
 }
 
 footer>p {
-    font-size: 12px;
-    line-height: 20px;
-    text-align: center;
-
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .capcha {
-    background-color: rgb(236, 238, 241);
-    border-radius: 5px;
-    margin-top: 40px;
-    padding: 10px;
-    text-align: center;
+  background-color: rgb(236, 238, 241);
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
 }
 
 .capcha>p {
-    color: rgb(76, 76, 76);
-    font-size: 9px;
+  color: rgb(76, 76, 76);
+  font-size: 9px;
 }
 
 .our_terms>p {
-    color: rgb(76, 76, 76);
-    text-align: center;
+  color: rgb(76, 76, 76);
+  text-align: center;
 }
 
 input {
-    border-color: rgb(236, 238, 241);
-    border-radius: 5px;
-    border-style: solid;
-    font-size: 15px;
-    height: 34px;
-    margin-top: 5px;
-    width: 345px;
+  border-color: rgb(236, 238, 241);
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 15px;
+  height: 34px;
+  margin-top: 5px;
+  width: 345px;
 }
 
 .form_input {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .form_main {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .login_title {
-    color: rgb(145, 145, 145);
-    text-align: center;
+  color: rgb(145, 145, 145);
+  text-align: center;
 }
 
 label {
-    font-size: smaller;
-    font-weight: 300;
+  font-size: smaller;
+  font-weight: 300;
 }
 
 h2 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .agree {
 
-    color: rgb(145, 145, 145);
-    font-style: italic;
-    margin-top: 30px;
+  color: rgb(145, 145, 145);
+  font-style: italic;
+  margin-top: 30px;
 }
 
 i {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 #copyright_text {
-    color: gray;
+  color: gray;
 }
