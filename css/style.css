@@ -32,7 +32,7 @@ li {
   margin: auto;
   opacity: 0.7;
   padding: 20px;
-  text-align: center;  
+  text-align: center; 
 }
 
 .form {
@@ -59,7 +59,7 @@ li {
   background-color: #8c1fff;
 }
 
-.have_account {  
+.have_account {
   float: right;
   text-align: right;
 }
@@ -105,7 +105,7 @@ a {
   height: 44px;
   margin-top: 20px;
   text-align: center;
-  width: 350px;  
+  width: 350px;
 }
 
 .create_account:hover {
