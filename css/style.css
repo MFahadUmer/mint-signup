@@ -7,19 +7,17 @@ body {
 
 .container1 {
     background-color: rgb(236, 238, 241);
-    height: 100px;
+    height: 120px;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 10px;
     width: 350px;
 }
 
 .container2 {
     background-color: white;
-    border-radius: 5px;
     border-color: rgb(87, 87, 87);
-    border-width: 0.5px;
+    border-radius: 5px;
     border-style: solid;
+    border-width: 0.5px;
     margin: auto;
     padding-top: 10px;
     width: 350px;
@@ -32,13 +30,11 @@ li {
 
 .logo_main {
     filter: grayscale(5);
-    height: 35px;
+    margin: auto;
     opacity: 0.7;
     padding: 20px;
-    margin: auto;
-    max-width: 100px;
     text-align: center;
-    width: 118px;
+    
 }
 
 .form {
@@ -55,36 +51,28 @@ li {
     background-color: rgb(0, 119, 197);
     border-radius: 5px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    height: 40px;
     color: white;
     float: right;
     font-size: 15px;
     height: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding-top: 0px;
+    margin: 10px 20px 0 10px;
     width: 100px;
 }
 
 .signin:hover {
-    background-color: rebeccapurple;
+    background-color: #8C1FFF;
 }
 
-#have_account {
-    display: inline;
-    font-size: 12px;
+.have_account {    
     float: right;
     text-align: right;
 }
 
-#other_logos {
-    align-items: center;
+.other_logos {
+    
     display: flex;
-    padding-left: 40px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    text-align: center;
+    padding: 0 60px 20px 40px;
+    
 
 }
 
@@ -97,7 +85,6 @@ li {
 button {
     border-style: hidden;
     color: gray;
-    font-size: 8px;
     font-family: 'AvenirNext', Avenir;
     font-weight: lighter;
     padding-left: 3px;
@@ -117,9 +104,6 @@ a {
     text-decoration: none;
 }
 
-#phone_msg {
-    font-size: 9px;
-}
 
 .button {
     background-color: rgb(0, 119, 197);
@@ -129,7 +113,6 @@ a {
     font-size: 15px;
     height: 44px;
     margin-top: 20px;
-    padding-left: 5px;
     width: 320px;
 }
 
@@ -147,11 +130,9 @@ footer>p {
 
 .capcha {
     background-color: rgb(236, 238, 241);
-    height: 50px;
     margin-top: 40px;
-    padding-top: 10px;
+    padding: 10px;
     text-align: center;
-    width: 100%;
 }
 
 .capcha>p {
@@ -172,7 +153,6 @@ input {
     font-size: 15px;
     height: 34px;
     margin-top: 5px;
-    padding-left: 5px;
     width: 310px;
 }
 
@@ -190,15 +170,15 @@ input {
 }
 
 label {
-    font-weight: 300;
     font-size: smaller;
+    font-weight: 300;
 }
 
 h2 {
     font-weight: 100;
 }
 
-#agree {
+.agree {
 
     color: rgb(145, 145, 145);
     font-style: italic;
