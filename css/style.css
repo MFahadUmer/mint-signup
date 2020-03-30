@@ -2,14 +2,15 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 body {
     margin: auto;
-    background-color: white;
+    background-color: rgb(236, 238, 241);
     font-family: 'AvenirNext', Avenir, sans-serif;
+    color: rgb(76, 76, 76);
 }
 
 .container1 {
     width: 350px;
     height: 100px;
-    background-color: white;
+    background-color: rgb(236, 238, 241);
     margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -21,7 +22,7 @@ body {
     margin: auto;
     padding-top: 10px;
     border-radius: 5px;
-    border-color: lightgray;
+    border-color: rgb(87, 87, 87);
     border-width: 0.5px;
     border-style: solid;
 }
@@ -31,9 +32,14 @@ li {
 }
 
 .logo_main {
-    width: auto;
     max-width: 100px;
-    padding-right: 200px;
+    filter: grayscale(5);
+    width: 118px;
+    height: 35px;
+    opacity: 70%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
 }
 
 .form {
@@ -45,17 +51,23 @@ li {
     height: 20px;
 }
 
-#signin {
+.signin {
     float: right;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
     height: 40px;
     width: 100px;
-    background-color: dodgerblue;
-    color: floralwhite;
+    background-color: rgb(0, 119, 197);
+    color: white;
     border-radius: 5px;
     font-size: 15px;
+    padding-top: 0px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.signin:hover {
+    background-color: rebeccapurple;
 }
 
 #have_account {
@@ -67,21 +79,26 @@ li {
 
 #other_logos {
     display: flex;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
 }
 
-.logo_main {
-    padding: 20px;
-    margin: auto;
-    text-align: center;
+.text_btn {
+    font-size: 15px;
+    background-color: rgb(236, 238, 241);
 }
 
 button {
-    background-color: white;
     color: gray;
     border-style: hidden;
-    font-size: larger;
-    padding-top: 5px;
+    font-size: 8px;
+    font-family: 'AvenirNext', Avenir;
+    font-size: large;
+    font-weight: lighter;
+    padding-left: 3px;
 }
 
 .small_logo {
@@ -103,12 +120,14 @@ a {
 
 .button {
     margin-top: 20px;
-    height: 40px;
-    width: 300px;
-    background-color: dodgerblue;
+    height: 44px;
+    width: 320px;
+    background-color: rgb(0, 119, 197);
     color: floralwhite;
     border-radius: 5px;
     font-size: 15px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    padding-left: 5px;
 }
 
 .footer {
@@ -125,25 +144,31 @@ footer>p {
 .capcha {
     height: 50px;
     width: 100%;
-    background-color: lightgray;
-    border-radius: 5px;
+    background-color: rgb(236, 238, 241);
     text-align: center;
     padding-top: 10px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .capcha>p {
     font-size: 10px;
+    color: rgb(76, 76, 76);
 }
 
 .our_terms>p {
     text-align: center;
+    color: rgb(76, 76, 76);
 }
 
 input {
-    width: 300px;
-    height: 30px;
+    width: 310px;
+    height: 34px;
     border-radius: 5px;
+    border-style: solid;
+    margin-top: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-color: rgb(236, 238, 241);
 }
 
 .form_input {
@@ -152,4 +177,24 @@ input {
 
 .form_main {
     padding-left: 15px;
+}
+
+.login_title {
+    text-align: center;
+    color: rgb(145, 145, 145);
+}
+
+label {
+    font-weight: 300;
+    font-size: smaller;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+#agree {
+    margin-top: 30px;
+    font-style: italic;
+    color: rgb(145, 145, 145);
 }

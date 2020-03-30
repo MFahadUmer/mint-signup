@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>intuit-login-form</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
@@ -12,13 +12,13 @@
 
     <header>
         <nav class="navbar">
-            <input id="signin" type="button" name="signin" value="Sign in">
+            <button class="signin" name="signin"><i class="fa fa-lock"></i> Sign In</button>
 
             <p id="have_account">
                 Already have an Intuit account?<br>
-                <a href="#"> 
+                <a href="#">
                     I Forgot my UserId or Password?
-                 </a>
+                </a>
             </p>
 
 
@@ -31,28 +31,28 @@
             <img src="https://www.logolynx.com/images/logolynx/eb/eb7f017bf099e8cc6467bec05c02f27b.png" width="100" alt="intuit-logo">
         </div>
 
-
-
         <div id="other_logos">
 
             <div class="small_logo">
-                <img src="https://helloapps.org/wp-content/uploads/2019/12/mint-mobile-app-download.jpg" alt="mint-logo" width="30" height="30">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGcgZmlsbD0ibm9uZSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMTAiIGZpbGw9IiMwMEE2QTQiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTAgMi43NzdjLS42NTguNjYtNS4xNzQgNS4zMDktNS4xNzQgOC45MyAwIDIuNTc4IDIuMDU1IDMuNDMyIDUuMTc0IDUuNTU0IDMuMTItMi4xMjIgNS4xNzQtMi45NzYgNS4xNzQtNS41NTQgMC0zLjYyMS00LjUxNS04LjI3LTUuMTc0LTguOTN6bTAgMTIuNzQ4bC0uNjA3LS4zOTdjLTIuMzItMS41MTEtMy4xMjMtMi4xMDEtMy4xMjMtMy40MjEgMC0yLjA0NCAyLjAyOC00Ljg4OCAzLjczLTYuODE2djEwLjYzNHoiLz48L2c+PC9zdmc+
+                " alt="mint-logo" width="23" height="23">
                 <div>
-                    <button>mint</button>
+                    <button class="text_btn">mint</button>
                 </div>
             </div>
 
             <div class="small_logo">
-                <img src="https://theeye.co.ug/wp-content/sabai/File/files/l_aff096a0e1b104ec30dcc9625376f85e.png" alt="mint-logo" width="30" height="30">
+                <img src="https://theeye.co.ug/wp-content/sabai/File/files/l_aff096a0e1b104ec30dcc9625376f85e.png" alt="mint-logo" width="23" height="23">
                 <div>
-                    <button>quickbooks</button>
+                    <button class="text_btn">quickbooks</button>
                 </div>
             </div>
 
             <div class="small_logo">
-                <img src="https://icon2.cleanpng.com/20180505/czq/kisspng-turbotax-computer-software-tax-return-intuit-type-5aedc6b2849693.8763541615255323385431.jpg" alt="mint-logo" width="30" height="30">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjZDUyYjFlIi8+PHBhdGggZD0iTS01NzkuMSwxMDA1LjdjLTIuOC0yLTUuNi00LjItOC4yLTYuNmMtMSwyLjItMS44LDQuNC0yLjYsNi42YzQuMiwzLjYsOS44LDcuNiwxMy44LDEwIGM1LTEzLDEyLjgtMjEuNCwyMC40LTI3LjRjLTEtMi0yLjItMy44LTMuOC01LjRDLTU2Ny43LDk4OC45LTU3NC4zLDk5Ni43LTU3OS4xLDEwMDUuN3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+                    alt="mint-logo" width="23" height="23">
                 <div>
-                    <button>turbotax</button>
+                    <button class="text_btn">turbotax</button>
                 </div>
             </div>
 
@@ -62,13 +62,12 @@
     <div class="container2">
 
         <div class="form">
-            <div style=" text-align: center;">
-                <h4 style="font-size: 25px;">Create an Intuit Account</h4>
+            <div class="login_title">
+                <h2>Create an Intuit Account</h2>
                 <p>
-                    One account for everything Intuit, including Mint. <a href="#">Learnmore</a>
-                </p>
-                <p>
-                    Already have an account? <a href="#">Sign In</a>
+                    One account for everything Intuit, including Mint.
+                    <br>
+                    <a href="#">Learn more</a>
                 </p>
 
             </div>
@@ -83,7 +82,7 @@
 
                     <div class="form_input">
                         <label for="phone">Phone (recomended) </label> <br>
-                        <input type="text" name="phone" id="phone"><br>
+                        <input type="tel" name="phone" id="phone"><br>
                         <p id="phone_msg">Standard call, messaging or data rates may apply.</p>
                     </div>
 
@@ -100,8 +99,10 @@
             </form>
 
             <div class="our_terms">
-                <p>
-                    By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.
+                <p id="agree">
+                    By clicking Create account, you agree to our
+                    <br> Terms and have read and acknowledge our <a href="#">Privacy</a>
+                    <br><a href="#">Statement.</a>
                 </p>
             </div>
         </div>
@@ -120,10 +121,5 @@
         </footer>
 
     </div>
-
-
-
 </body>
-
-
 </html>
