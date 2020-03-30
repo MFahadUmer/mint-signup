@@ -68,6 +68,7 @@ module.exports = {
     "indentation": 2,
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
+    "font-family-no-missing-generic-family-keyword": true,
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-case": "lower",
