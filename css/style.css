@@ -1,30 +1,29 @@
-@import "https://fonts.googleapis.com/css?family=AvenirNext:400,700";
-
 body {
-    margin: auto;
     background-color: rgb(236, 238, 241);
-    font-family: 'AvenirNext', Avenir, sans-serif;
     color: rgb(76, 76, 76);
+    font-family: 'AvenirNext', Avenir, sans-serif;
+    margin: auto;
 }
 
 .container1 {
-    width: 350px;
-    height: 100px;
     background-color: rgb(236, 238, 241);
+    height: 100px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
+    width: 350px;
 }
 
 .container2 {
-    width: 350px;
     background-color: white;
-    margin: auto;
-    padding-top: 10px;
     border-radius: 5px;
     border-color: rgb(87, 87, 87);
     border-width: 0.5px;
     border-style: solid;
+    margin: auto;
+    padding-top: 10px;
+    width: 350px;
+
 }
 
 li {
@@ -32,14 +31,14 @@ li {
 }
 
 .logo_main {
-    max-width: 100px;
     filter: grayscale(5);
-    width: 118px;
     height: 35px;
-    opacity: 70%;
+    opacity: 0.7;
     padding: 20px;
     margin: auto;
+    max-width: 100px;
     text-align: center;
+    width: 118px;
 }
 
 .form {
@@ -47,23 +46,25 @@ li {
 }
 
 .navbar {
-    width: 100vw;
+
     height: 20px;
+    width: 100vw;
 }
 
 .signin {
+    background-color: rgb(0, 119, 197);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    height: 40px;
+    color: white;
     float: right;
+    font-size: 15px;
+    height: 40px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
-    height: 40px;
-    width: 100px;
-    background-color: rgb(0, 119, 197);
-    color: white;
-    border-radius: 5px;
-    font-size: 15px;
     padding-top: 0px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    width: 100px;
 }
 
 .signin:hover {
@@ -72,38 +73,40 @@ li {
 
 #have_account {
     display: inline;
-    float: right;
     font-size: 12px;
+    float: right;
     text-align: right;
 }
 
 #other_logos {
+    align-items: center;
     display: flex;
     padding-left: 40px;
     padding-right: 60px;
     padding-bottom: 20px;
     text-align: center;
-    align-items: center;
+
 }
 
 .text_btn {
-    font-size: 15px;
     background-color: rgb(236, 238, 241);
+    font-size: 15px;
+
 }
 
 button {
-    color: gray;
     border-style: hidden;
+    color: gray;
     font-size: 8px;
     font-family: 'AvenirNext', Avenir;
-    font-size: large;
     font-weight: lighter;
     padding-left: 3px;
 }
 
 .small_logo {
-    width: 200px;
     display: flex;
+    width: 200px;
+
 }
 
 p {
@@ -119,15 +122,15 @@ a {
 }
 
 .button {
-    margin-top: 20px;
-    height: 44px;
-    width: 320px;
     background-color: rgb(0, 119, 197);
-    color: floralwhite;
     border-radius: 5px;
-    font-size: 15px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    color: floralwhite;
+    font-size: 15px;
+    height: 44px;
+    margin-top: 20px;
     padding-left: 5px;
+    width: 320px;
 }
 
 .footer {
@@ -137,38 +140,40 @@ a {
 
 footer>p {
     font-size: 12px;
-    text-align: center;
     line-height: 20px;
+    text-align: center;
+
 }
 
 .capcha {
-    height: 50px;
-    width: 100%;
     background-color: rgb(236, 238, 241);
-    text-align: center;
-    padding-top: 10px;
+    height: 50px;
     margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .capcha>p {
-    font-size: 10px;
     color: rgb(76, 76, 76);
+    font-size: 10px;
 }
 
 .our_terms>p {
-    text-align: center;
     color: rgb(76, 76, 76);
+    text-align: center;
 }
 
 input {
-    width: 310px;
-    height: 34px;
+
+    border-color: rgb(236, 238, 241);
     border-radius: 5px;
     border-style: solid;
-    margin-top: 5px;
     font-size: 15px;
+    height: 34px;
+    margin-top: 5px;
     padding-left: 5px;
-    border-color: rgb(236, 238, 241);
+    width: 310px;
 }
 
 .form_input {
@@ -180,8 +185,8 @@ input {
 }
 
 .login_title {
-    text-align: center;
     color: rgb(145, 145, 145);
+    text-align: center;
 }
 
 label {
@@ -194,7 +199,8 @@ h2 {
 }
 
 #agree {
-    margin-top: 30px;
-    font-style: italic;
+
     color: rgb(145, 145, 145);
+    font-style: italic;
+    margin-top: 30px;
 }
