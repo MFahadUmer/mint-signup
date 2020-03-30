@@ -59,7 +59,7 @@ li {
   background-color: #8c1fff;
 }
 
-.have_account {    
+.have_account {  
   float: right;
   text-align: right;
 }
@@ -181,8 +181,4 @@ h2 {
 
 i {
   margin-top: 12px;
-}
-
-#copyright_text {
-  color: gray;
 }
